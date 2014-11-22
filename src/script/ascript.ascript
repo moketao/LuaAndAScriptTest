@@ -1,0 +1,37 @@
+package
+{
+	import flash.display.Stage;
+	import flash.events.Event;
+	import flash.utils.getTimer;
+	
+	public class AScriptClass
+	{
+		
+		public var main:*;
+		
+		public function AScriptClass(){}
+		
+		public function internalEmptyCall(count:int):void{
+			for(var i:int=0;i<count;i++){
+				emptyFunction();
+			}
+		}
+		
+		public function emptyFunction():void{
+		}
+		
+		public function emptyCallFromScriptToAs3(count:int):void{
+			for(var i:int=0;i<count;i++){
+				main.emptyFunction();
+			}
+		}
+		
+		public function cumsum(count:int):void{
+			var sum:uint;
+			for(var i:int=0;i<count;i++){
+				sum=sum+i;
+			}
+		}
+		
+	}
+}
