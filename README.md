@@ -1,7 +1,10 @@
 LuaAndAScriptTest
 =================
+
 测试环境A：
+=========
 AMD Athlon(tm) 64 X2 Dual Core Processor 4400+ 2.30 GHz
+
 Windows 64
 
 测试项 | 时间（毫秒）
@@ -20,6 +23,7 @@ AScript100000次累加总时间 | 2829
 
 
 测试环境B：
+=========
 iPad1
 
 测试项 | 时间（毫秒）
